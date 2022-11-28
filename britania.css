@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    background: #eb1c23;
+    height: 59px;
+    position: sticky;  
+    display: flex;
+}
+.HeaderLeft{
+    /* content: ''; */
+    display: block;
+    width: 25%;
+    height: 59px;
+    background-color: #5bc4f1; 
+}
+.HeaderRight1{
+    width: 5%;
+    background-color: #eb1c23;
+
+}
+.HeaderMenus{
+    width: 40%;
+    background-color: #eb1c23;
+       
+}
+.search{
+    background-color: #eb1c23;
+    width: 12%;
+}
+.search img{
+    width: 30px;
+    padding-left: 20px;
+    padding-top: 12px;
+}
+.Logo{
+    max-width: 220px;
+    position: relative;
+    display: inline-block;
+    top: -34px;
+    padding-left: 61%;
+    padding-top: 10;
+}.HomePicture{
+    width: 100%;
+    /* padding-top: 4%; */
+}
+
+.HeaderMenus{
+    font-family: 'DINNextLTPro-Regular';
+}
+.Options li{
+  justify-content: space-around;
+  margin: 8px;
+  display: inline-block;
+  padding-top: 12px;
+  /* text-decoration: none;
+  list-style-type: none; */
+  font-family: 'DINNextLTPro-Regular';
+}
+.Options li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    /* font-family: 'DINNextLTPro-Regular'; */
+    
+}
+.inner{
+    display:inline;
+}
+.VideoDiv{
+    position: relative;
+    /* clear: both; */
+    width: 960px;
+    margin: 30px auto;
+    margin-bottom: 172px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.VideoDiv img{
+    background-color: #eb1c23;
+    width: 35px;
+    margin: 275px 0 0 30px;
+    
+}
+.VideoDiv img:hover{
+    background-color: red;
+    width: 33px;
+    border: 3px solid rgb(78, 77, 77);
+}
+
+.footer{
+    background-color: #00993f;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 1cm 5cm 2cm 5cm;
+    list-style: none;
+    color: #b8da8a;
+}
+.footer div ul{
+    padding: 1cm 1.5cm 0 0;
+    list-style: none;
+}
+.footer div li:hover{
+    color: #fff;
+    cursor: pointer;
+    text-decoration:underline
+}
+.FooterLists{
+    color: #fff;
+}
